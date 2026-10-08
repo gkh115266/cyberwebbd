@@ -1,9 +1,12 @@
+```html
 <!DOCTYPE html>
 <html lang="bn">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>CYBER NEWS</title>
+
   <style>
     body {
       margin: 0;
@@ -12,6 +15,7 @@
       font-family: "Noto Sans Bengali", "Nirmala UI", Arial, sans-serif;
       line-height: 1.9;
     }
+
     .page {
       max-width: 850px;
       margin: 35px auto;
@@ -20,6 +24,7 @@
       box-sizing: border-box;
       box-shadow: 0 2px 12px rgba(0,0,0,.08);
     }
+
     .site-name {
       font-family: Georgia, serif;
       font-size: 34px;
@@ -29,17 +34,28 @@
       padding-bottom: 10px;
       margin-bottom: 28px;
     }
+
     h1 {
       font-family: Georgia, serif;
       font-size: 29px;
       line-height: 1.4;
       margin: 0 0 12px;
     }
-    .article-photo {
+
+    .article-photo,
+    .tiger-photo,
+    .hacker-photo,
+    .mate-photo,
+    .cyberweb-photo {
       margin: 0 0 30px;
       text-align: center;
     }
-    .article-photo img {
+
+    .article-photo img,
+    .tiger-photo img,
+    .hacker-photo img,
+    .mate-photo img,
+    .cyberweb-photo img {
       display: block;
       width: 100%;
       max-width: 680px;
@@ -47,16 +63,41 @@
       margin: 0 auto;
       border-radius: 2px;
     }
+
+    /* VIDEO */
+    .article-video {
+      margin: 35px 0;
+      text-align: center;
+    }
+
+    .article-video video {
+      display: block;
+      width: 100%;
+      max-width: 680px;
+      height: auto;
+      margin: 0 auto;
+      border-radius: 4px;
+      background: #000;
+    }
+
+    .video-caption {
+      margin-top: 8px;
+      color: #666;
+      font-size: 14px;
+    }
+
     .date {
       color: #666;
       font-size: 14px;
       margin-bottom: 28px;
     }
+
     p {
       font-size: 18px;
       margin: 0 0 20px;
       text-align: justify;
     }
+
     .footer {
       margin-top: 35px;
       padding-top: 18px;
@@ -64,66 +105,129 @@
       font-weight: 700;
       font-family: Georgia, serif;
     }
+
     @media (max-width: 600px) {
       .page {
         margin: 0;
         padding: 24px 18px;
         box-shadow: none;
       }
-      .site-name { font-size: 28px; }
-      h1 { font-size: 23px; }
-      p { font-size: 17px; }
+
+      .site-name {
+        font-size: 28px;
+      }
+
+      h1 {
+        font-size: 23px;
+      }
+
+      p {
+        font-size: 17px;
+      }
+
+      .article-video {
+        margin: 28px 0;
+      }
     }
   </style>
 </head>
+
 <body>
+
   <main class="page">
+
     <div class="site-name">CYBER NEWS</div>
 
-    <h1>মাত্র ১০ বছর বয়সে সাইবার জগতে প্রবেশ, Tiger M@te-এর মতো একটি ভয়ানক হ্যাকিং টিমের সাবেক নেতা ইয়ামিন নামে এক তরুন</h1>
+    <h1>
+      মাত্র ১০ বছর বয়সে সাইবার জগতে প্রবেশ, Tiger M@te-এর মতো একটি ভয়ানক হ্যাকিং টিমের সাবেক নেতা ইয়ামিন নামে এক তরুন
+    </h1>
 
-    <div class="date">News Upload Date: 13/02/2021</div>
+    <div class="date">
+      News Upload Date: 13/02/2021
+    </div>
 
-   <p>ছবিটি গুগল থেকে সংগ্রহ করা হয়েছে
+    <p>ছবিটি গুগল থেকে সংগ্রহ করা হয়েছে</p>
 
-   <figure class="article-photo">
-  <img src="news-photo.jpg" alt="Article Photo" style="width: 100%; max-width: 680px; height: auto; display: block; margin: 0 auto; border-radius: 2px;">
-</figure>
+    <figure class="article-photo">
+      <img src="news-photo.jpg" alt="Article Photo">
+    </figure>
+
+    <p>
+      বাংলাদেশের খুলনার অল্প বয়সী তরুণ নাম ইয়ামিন মাত্র ১০ বছর বয়স থেকেই মোবাইল কম্পিউটার ও অনলাইন জগতের প্রতি আগ্রহী হয়ে ওঠে। সময়ের সঙ্গে সেই আগ্রহ তাকে সাইবার জগতের বিভিন্ন অনৈতিক কর্মকাণ্ডের সঙ্গে জড়িয়ে ফেলে।
+    </p>
+
+    <p>
+      একটি প্রতিবেদনে বলা হয়, ২০২০ সাল থেকে ইয়ামিন “Tiger M@te” নামে অনলাইনের পুরো একটি হ্যাকিং টিমের নেতৃত্ব দিয়ে আসছিল। তার নেতৃত্বে দলটি বিভিন্ন অনলাইন অনৈতি কর্মকাণ্ডে জড়িত ছিল বলে উল্লেখ করা হয়েছে।
+    </p>
+
+    <figure class="tiger-photo">
+      <img src="tiger.jpg" alt="Article Photo">
+    </figure>
 
 
-    <p>বাংলাদেশের খুলনার অল্প বয়সী তরুণ নাম ইয়ামিন মাত্র ১০ বছর বয়স থেকেই মোবাইল কম্পিউটার ও অনলাইন জগতের প্রতি আগ্রহী হয়ে ওঠে। সময়ের সঙ্গে সেই আগ্রহ তাকে সাইবার জগতের বিভিন্ন অনৈতিক কর্মকাণ্ডের সঙ্গে জড়িয়ে ফেলে।</p>
+    <!-- ================= VIDEO ================= -->
 
-    <p>একটি প্রতিবেদনে বলা হয়, ২০২০ সাল থেকে ইয়ামিন “Tiger M@te” নামে অনলাইনের পুরো একটি হ্যাকিং টিমের নেতৃত্ব দিয়ে আসছিল। তার নেতৃত্বে দলটি বিভিন্ন অনলাইন অনৈতি কর্মকাণ্ডে জড়িত ছিল বলে উল্লেখ করা হয়েছে।</p>
+    <figure class="article-video">
 
-<figure class="tiger-photo">
-  <img src="tiger.jpg" alt="Article Photo" style="width: 100%; max-width: 680px; height: auto; display: block; margin: 0 auto; border-radius: 2px;">
-</figure>
-    
-    <p>এক পর্যায়ে একটি হ্যাকিং এর মাধ্যমে প্রায় একটি Bitcoin-এর সমপরিমাণ অর্থ পায় বলে প্রতিবেদনে দাবি করা হয় যা বাংলাদেশি টাকাই প্রাই ১০ লক্ষ টাকা । সে সময় অর্থটি স্থানীয় মুদ্রায় রূপান্তর বা উত্তোলনের উপযুক্ত ব্যবস্থা না থাকায় সেটি ব্যবহার করতে পারেনি।</p>
+      <video controls playsinline preload="metadata">
+
+        <source src="news-video.mp4" type="video/mp4">
+
+        আপনার ব্রাউজার ভিডিওটি চালাতে পারছে না।
+
+      </video>
+
+      <div class="video-caption">
+        ভিডিও প্রতিবেদন
+      </div>
+
+    </figure>
+
+    <!-- ========================================== -->
+
+
+    <p>
+      এক পর্যায়ে একটি হ্যাকিং এর মাধ্যমে প্রায় একটি Bitcoin-এর সমপরিমাণ অর্থ পায় বলে প্রতিবেদনে দাবি করা হয় যা বাংলাদেশি টাকাই প্রাই ১০ লক্ষ টাকা। সে সময় অর্থটি স্থানীয় মুদ্রায় রূপান্তর বা উত্তোলনের উপযুক্ত ব্যবস্থা না থাকায় সেটি ব্যবহার করতে পারেনি।
+    </p>
 
     <figure class="hacker-photo">
-  <img src="hacker.jpg" alt="Article Photo" style="width: 100%; max-width: 680px; height: auto; display: block; margin: 0 auto; border-radius: 2px;">
-</figure>
-    
-    <p>এর আগে বিভিন্ন সামাজিক যোগাযোগমাধ্যম ও অনলাইন প্ল্যাটফর্ম নিয়ে তার কর্মকাণ্ডের পরিমাণ ৩ লক্ষেরও বেশি অ্যাকাউন্ট হ্যাক করেছে দাবি করা হয়। তবে একটি রাশিয়ান ওয়েবসাইট অননুমোদিত প্রবেশের চেষ্টার ফলে সে ধরা পড়ে যায় এবং এটাই তার জীবনের অন্যতম আলোচিত ঘটনা হিসেবে বর্ণনা করা হয়েছে।</p>
+      <img src="hacker.jpg" alt="Article Photo">
+    </figure>
 
-    <p>তার বিরুদ্ধে তদন্তের সময় তার পরিচয় বা কর্মকাণ্ড সম্পর্কে বিশেষ কোনো নির্ভরযোগ্য তথ্য পাওয়া যায়নি ওই প্রতিবেদনে বলা হয়েছে। তবে পরিস্থিতি বুঝতে পেরে ইয়ামিন নিজে থেকেই বিষয়টি পরিষ্কার করার সিদ্ধান্ত নেয়।</p>
+    <p>
+      এর আগে বিভিন্ন সামাজিক যোগাযোগমাধ্যম ও অনলাইন প্ল্যাটফর্ম নিয়ে তার কর্মকাণ্ডের পরিমাণ ৩ লক্ষেরও বেশি অ্যাকাউন্ট হ্যাক করেছে দাবি করা হয়। তবে একটি রাশিয়ান ওয়েবসাইট অননুমোদিত প্রবেশের চেষ্টার ফলে সে ধরা পড়ে যায় এবং এটাই তার জীবনের অন্যতম আলোচিত ঘটনা হিসেবে বর্ণনা করা হয়েছে।
+    </p>
 
-    <p>ধরা পড়ার পর সে কোনো ধরনের পালানোর চেষ্টা না করে নিজে থেকেই আত্মসমর্পণ করে এবং তার জানা তথ্য তদন্তকারীদের জানাতে রাজি হয়। তার অল্প বয়স এবং স্বেচ্ছায় সহযোগিতা করাই তাকে কোনো শাস্তি দেওয়া হয়নি, কিন্তু তার অনলাইন ব্যাংক একাউন্ট কিছু পরিমাণে টাকা ছিল সেগুলো ক্ষতিপূরণ হিসেবে নেওয়া হয় এবং তাকে ছেড়ে দেওয়া হয়।</p>
+    <p>
+      তার বিরুদ্ধে তদন্তের সময় তার পরিচয় বা কর্মকাণ্ড সম্পর্কে বিশেষ কোনো নির্ভরযোগ্য তথ্য পাওয়া যায়নি ওই প্রতিবেদনে বলা হয়েছে। তবে পরিস্থিতি বুঝতে পেরে ইয়ামিন নিজে থেকেই বিষয়টি পরিষ্কার করার সিদ্ধান্ত নেয়।
+    </p>
 
-    <p>পরবর্তীতে তাকে কোনো শাস্তি না দিয়ে Tiger M@te থেকে সম্পূর্ণভাবে বহিষ্কার করা হয়।</p>
-    
+    <p>
+      ধরা পড়ার পর সে কোনো ধরনের পালানোর চেষ্টা না করে নিজে থেকেই আত্মসমর্পণ করে এবং তার জানা তথ্য তদন্তকারীদের জানাতে রাজি হয়। তার অল্প বয়স এবং স্বেচ্ছায় সহযোগিতা করাই তাকে কোনো শাস্তি দেওয়া হয়নি, কিন্তু তার অনলাইন ব্যাংক একাউন্ট কিছু পরিমাণে টাকা ছিল সেগুলো ক্ষতিপূরণ হিসেবে নেওয়া হয় এবং তাকে ছেড়ে দেওয়া হয়।
+    </p>
+
+    <p>
+      পরবর্তীতে তাকে কোনো শাস্তি না দিয়ে Tiger M@te থেকে সম্পূর্ণভাবে বহিষ্কার করা হয়।
+    </p>
+
     <figure class="mate-photo">
-  <img src="mate.jpg" alt="Article Photo" style="width: 100%; max-width: 680px; height: auto; display: block; margin: 0 auto; border-radius: 2px;">
-</figure>
-    
-    <p>শেষ পর্যন্ত Tiger M@te-এর নেতৃত্ব হারানোর পর ইয়ামিন-এর সাইবার জগতের সেই অধ্যায়ের সমাপ্তি ঘটে এটাই উল্লেখ করা হয়েছে।</p>
-    
+      <img src="mate.jpg" alt="Article Photo">
+    </figure>
+
+    <p>
+      শেষ পর্যন্ত Tiger M@te-এর নেতৃত্ব হারানোর পর ইয়ামিন-এর সাইবার জগতের সেই অধ্যায়ের সমাপ্তি ঘটে এটাই উল্লেখ করা হয়েছে।
+    </p>
+
     <figure class="cyberweb-photo">
-  <img src="cyberweb.jpg" alt="Article Photo" style="width: 100%; max-width: 680px; height: auto; display: block; margin: 0 auto; border-radius: 2px;">
-</figure>
-    
-    <div class="footer">Cyber News Bangladesh</div>
+      <img src="cyberweb.jpg" alt="Article Photo">
+    </figure>
+
+    <div class="footer">
+      Cyber News Bangladesh
+    </div>
+
   </main>
+
 </body>
 </html>
+```
